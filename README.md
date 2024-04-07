@@ -29,10 +29,19 @@ El proyecto incluye implementaciones de los siguientes algoritmos y métodos:
 - **Método de Cholesky**: Descomposición para matrices simétricas y definidas positivas.
 - **Método de Doolittle**: Factorización LU donde la matriz L (lower) tiene todos sus elementos de la diagonal principal igual a 1.
 - **Método de Crout**: Factorización LU donde la matriz U (upper) tiene todos sus elementos de la diagonal principal igual a 1.
+# Instalación y Ejecución
 
-### Advertencia
+Si clonas este proyecto y tratas de ejecutarlo, podrías encontrarte con un error en la clase `evaluarFunciones`. Para solucionar este problema, necesitas agregar dos archivos JAR específicos al proyecto. Sigue estos pasos para resolverlo:
 
-Este proyecto fue desarrollado en 2022 como parte de mi formación académica en Métodos Numéricos. En ese momento, mi comprensión de las buenas prácticas de programación en Java era limitada. A pesar de que el proyecto funcionó adecuadamente con todos los métodos mencionados, al intentar retomarlo en abril de 2024, he encontrado que no se ejecuta correctamente.
+1. **Descarga los archivos JAR necesarios:**
+   - Descarga `ext-1.1.1.jar` desde [este enlace](http://www.java2s.com/Code/Jar/e/Downloadext111jar.htm).
+   - Descarga `jep-2.4.1.jar` desde [este enlace](http://www.java2s.com/Code/Jar/j/Downloadjep241jar.htm).
 
-### Instalación y Ejecución
-Queda pendiente xd
+2. **Añade los archivos JAR al proyecto:**
+   - En tu entorno de desarrollo (NetBeans), haz clic derecho en el directorio `Libraries` dentro de tu proyecto.
+   - Selecciona `Add Jar/Folder` en el menú contextual.
+   - Navega hasta la ubicación donde descargaste los archivos JAR y selecciónalos.
+   - Haz clic en `Abrir` o `Aceptar` para añadir los archivos JAR a tu proyecto.
+
+Con estos pasos, deberías haber resuelto el error en la clase `evaluarFunciones` y tu proyecto debería ejecutarse correctamente.
+
