@@ -31,7 +31,11 @@ El proyecto incluye implementaciones de los siguientes algoritmos y métodos:
 - **Método de Crout**: Factorización LU donde la matriz U (upper) tiene todos sus elementos de la diagonal principal igual a 1.
 # Instalación y Ejecución
 
-Si clonas este proyecto y tratas de ejecutarlo, podrías encontrarte con un error en la clase `evaluarFunciones`. Para solucionar este problema, necesitas agregar dos archivos JAR específicos al proyecto. Sigue estos pasos para resolverlo:
+Si clonas este proyecto y tratas de ejecutarlo, podrías encontrarte con un error en la clase `evaluarFunciones`
+
+![Ejemplo del error](/src/imagenesReadme/error_orgs.png "Error de org")
+
+Para solucionar este problema, necesitas agregar dos archivos JAR específicos al proyecto. Sigue estos pasos para resolverlo:
 
 1. **Descarga los archivos JAR necesarios:**
    - Descarga `ext-1.1.1.jar` desde [este enlace](http://www.java2s.com/Code/Jar/e/Downloadext111jar.htm).
@@ -40,8 +44,15 @@ Si clonas este proyecto y tratas de ejecutarlo, podrías encontrarte con un erro
 2. **Añade los archivos JAR al proyecto:**
    - En tu entorno de desarrollo (NetBeans), haz clic derecho en el directorio `Libraries` dentro de tu proyecto.
    - Selecciona `Add Jar/Folder` en el menú contextual.
+      ![Ejemplo del error](/src/imagenesReadme/menucontext.png "Error de org")
    - Navega hasta la ubicación donde descargaste los archivos JAR y selecciónalos.
+      ![Ejemplo del error](/src/imagenesReadme/addfolder.png "Error de org")
    - Haz clic en `Abrir` o `Aceptar` para añadir los archivos JAR a tu proyecto.
+
+
 
 Con estos pasos, deberías haber resuelto el error en la clase `evaluarFunciones` y tu proyecto debería ejecutarse correctamente.
 
+# Ejemplo de uso
+
+Pendiente...
