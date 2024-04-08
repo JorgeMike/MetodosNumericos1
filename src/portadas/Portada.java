@@ -44,10 +44,7 @@ public class Portada extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         exitPnl = new javax.swing.JPanel();
         exitLb = new javax.swing.JLabel();
@@ -116,23 +113,10 @@ public class Portada extends javax.swing.JFrame {
         jLabel7.setText("Equipo: Los Metodológicos");
         panelBackGround.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 420, -1, -1));
 
-        jLabel8.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
-        jLabel8.setText("Integrantes:");
-        panelBackGround.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 460, -1, -1));
-
         jLabel9.setFont(new java.awt.Font("Roboto Medium", 0, 18)); // NOI18N
         jLabel9.setText("Alvarado Reyes Jorge Miguel");
         panelBackGround.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 490, -1, -1));
 
-        jLabel10.setFont(new java.awt.Font("Roboto Medium", 0, 18)); // NOI18N
-        jLabel10.setText("Jiménez Pineda Leydi Monserrat");
-        panelBackGround.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 520, -1, -1));
-
-        jLabel11.setFont(new java.awt.Font("Roboto Medium", 0, 18)); // NOI18N
-        jLabel11.setText("Farfán Romero Janine Saraí ");
-        panelBackGround.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 550, -1, -1));
-
-        jButton1.setBackground(new java.awt.Color(255, 255, 255));
         jButton1.setFont(new java.awt.Font("Roboto Medium", 0, 24)); // NOI18N
         jButton1.setText("Iniciar");
         jButton1.setBorder(null);
@@ -284,15 +268,12 @@ public class Portada extends javax.swing.JFrame {
     private javax.swing.JPanel exitPnl;
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;

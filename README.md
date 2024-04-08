@@ -55,4 +55,24 @@ Con estos pasos, deberías haber resuelto el error en la clase `evaluarFunciones
 
 # Ejemplo de uso
 
-Pendiente...
+## Ejemplo con metodo de bisección
+
+![Ejemplo del error](/src/imagenesReadme/biseccion.png "Error de org")
+
+## Teoria
+
+![Ejemplo del error](/src/imagenesReadme/teoria.png "Error de org")
+
+En algunos de los metodos existe el boton de "Teoria" el cual abre una ventana con un poco de la teoria que se usa para el programa
+
+# Advertencia
+
+El programa podria contar con errores que no fueron detectados durante su desarrollo, alguno errores comunes de los metodos si estan incluidos en el programa
+
+## Ejemplo de errores
+
+![Ejemplo del error](/src/imagenesReadme/error1.png "Error de org")
+
+![Ejemplo del error](/src/imagenesReadme/error2.png "Error de org")
+
+![Ejemplo del error](/src/imagenesReadme/erro3.png "Error de org")
